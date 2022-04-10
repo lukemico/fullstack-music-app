@@ -24,7 +24,7 @@ const Home = ({ artists }) => {
           <Text fontSize="md">only visible to you</Text>
         </Box>
         <Flex>
-          {/* {artists.map((artist) => (
+          {artists.map((artist) => (
             <Box paddingX="10px" width="20%">
               <Box bg="gray.900" borderRadius="4px" padding="15px" width="100%">
                 <Image
@@ -37,7 +37,7 @@ const Home = ({ artists }) => {
                 </Box>
               </Box>
             </Box>
-          ))} */}
+          ))}
         </Flex>
       </Box>
     </GradientLayout>
